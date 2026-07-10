@@ -1,0 +1,5 @@
+attached, save functions.
+which is S is save to csv. 
+O is open csv file.
+
+
