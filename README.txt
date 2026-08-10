@@ -1,23 +1,16 @@
+
+・このプログラムについて
 このプログラムはシンプルなポモドーロです。
-
 このプログラムは、日本語話者によってc言語で書かれました。
+アスキーアートが好きなので練習がてら、copilotとvscodeでポモドーロタイマーを作ってみました！
+このプログラムはLinuxでの運用を想定しています。
 
-私は情報収集しません。
-私はこのプログラムの一部、または全部を使ったことによるあらゆる責任を負いません。
-私はこのプログラムの一部、または全部を使った、このプログラム最配布を許可します。つまり改変自由です。
-
-私はこの書面に同意します。
-
-この文章はdeeplによって翻訳されました。
+・展望
+一日の仕事時間から逆算して時間測定するソフトを作ること、時間測定機能を追加すること、もっと軽くすることなどを考えています。
 
 This program is simple pomdoro.
-
 This program was written in C by a Japanese speaker.
 
-I do not collect any information.
-I assume no liability whatsoever for the use of any part or all of this program.
-I grant permission to use any part or all of this program and to redistribute it. In other words, you are free to modify it.
-
-I agree to the terms of this document.
-
-This text was translated by Deepl.
+・Outlook
+We are considering developing software that tracks time by working backward from the daily work hours, adding time-tracking features, and making the software more lightweight.
+This program is currently desgned to only run on Linux.
