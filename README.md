@@ -1,9 +1,10 @@
 
-## 概要 ## 
+## 概要 
 このプログラムはシンプルなポモドーロです。
 このプログラムは、latest_versionまでは、日本語話者によってc言語で書かれました。
 このプログラムは、aura_versionは、c++ 言語によって日本語話者によって書かれました。
 アスキーアートが好きなので練習がてら、copilotとvscodeでポモドーロタイマーを作ってみました！
+v1.3以前の挙動にはなるのですが、imageを参考にして下さい。
 
 ## "v1.3"での挙動
 "work time"これは作業時間のことを指します。
@@ -39,6 +40,7 @@ This program is a simple Pomodoro timer.
 Versions up to "latest_version" were written in C by a Japanese speaker.
 The "aura_version" was written in C++ by a Japanese speaker.
 I enjoy ASCII art, so I decided to create a Pomodoro timer using VS Code and Copilot as a practice project!
+It is before v1.3 but there is an example "image" file which actually running this program on termianl please check it!
 
 ## Behavior in "v1.3"
 "work time": Refers to the duration of the work session.
