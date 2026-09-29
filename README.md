@@ -19,10 +19,10 @@ v1.3以前の挙動にはなるのですが、imageを参考にして下さい�
 
 ## 開発環境
 Linux mint 22.3 mate. 
-## コンパイルと実行
-"pomo"は、単体で動きます。src/"任意のバージョン"に移動し、"g++ main.cpp -o main"のあと、"./main"で実行してください。
-"v1.3"は、できるだけフォルダ構造を変更しないでください。変更する場合はソースコードを書き換えて使用してください。"g++ main.cpp -o main"のあと、"./main"で実行してください。
 
+## コンパイルと実行
+-対象のバージョンのフォルダに移動し、./mainを実行して下さい。
+-不安な人は、"g++ main.cpp -o main"を実行したあとに、上記のコマンドを実行して下さい。
 ## 展望
 もっと速くて軽いプログラムを作ります。
 
@@ -33,40 +33,36 @@ Linux mint 22.3 mate.
 ## License
 詳細は、LISENCEを参照してください。
 
-## Overview ##
-This program is a simple Pomodoro timer.
-Versions up to "latest_version" were written in C by a Japanese speaker.
-The "aura_version" was written in C++ by a Japanese speaker.
-I enjoy ASCII art, so I decided to create a Pomodoro timer using VS Code and Copilot as a practice project!
-It is before v1.3 but there is an example "image" file which actually running this program on termianl please check it!
+## Overview 
+This programme is a simple Pomodoro timer.
+Up to version ‘latest_version’, this programme was written in C by a Japanese speaker.
+From version ‘aura_version’ onwards, this programme was written in C++ by a Japanese speaker.
+As I’m a fan of ASCII art, I decided to try my hand at creating a Pomodoro timer using Copilot and VS Code!
+Although it behaves as in versions prior to v1.3, please refer to the image.
 
-## Behavior in "v1.3"
-"work time": Refers to the duration of the work session.
-"short break time": Refers to the duration of a short break.
-"long break time": Refers to the duration of a long break.
-"sessions": Refers to the total number of work sessions (excluding both short and long breaks).
-"Long interval spacing": Determines how often a long break occurs (i.e., after how many short break cycles). While the standard Pomodoro technique uses 4 sessions, this program allows you to set this freely.
-"Reminder interval": Determines how often (in minutes) a video plays and a Notepad window pops up.
-As indicated in the license, you are free to modify the source code; please make any necessary adjustments yourself.
+## Behaviour in "v1.6"
+"work time" refers to the working time.
+"short break time" refers to a short break.
+"long break time" refers to a long break.
+"sessions" refers to the total number of sessions.
+"Long interval spacing" refers to how often a long break is taken. In a standard Pomodoro session, this would typically be every 4 sessions, but at present, this programme supports values up to 128.
+"Reminder interval" refers to how many minutes elapse before a video plays and a notepad pops up.
 
-## Operating Environment
-This program is designed to run on Linux.
+## System Requirements 
+This programme is designed to run on Linux.
 
 ## Development Environment
-Linux Mint 22.3 MATE.
+Linux Mint 22.3 MATE. 
 
 ## Compilation and Execution
-"pomo" runs as a standalone program. Navigate to the `src/"version_name"` directory, run `g++ main.cpp -o main`, and then execute it with `./main`.
-For "v1.3", please avoid changing the folder structure as much as possible. If you do modify it, please update the source code accordingly. Run `g++ main.cpp -o main` followed by `./main` to execute.
-
+- Navigate to the folder for the relevant version and run `./main`.
+- If you are unsure, run `g++ main.cpp -o main` first, followed by the command above.
 ## Future Plans
-For v1.4 and beyond, I plan to create a faster and more lightweight program.
-Thank you.
+I intend to create a faster and lighter programme.
 
 ## Important Notes
 Please avoid changing the file and folder structure as much as possible.
-If you do make changes, please do so at your own risk and update the paths, source code, and file name settings yourself.
+If you do make changes, please do so at your own risk and configure the paths, source code and filenames yourself.
 
-## License
-Please refer to the LICENSE file for details.
-
+## Licence
+Please refer to the LICENCE file for details.
