@@ -7,12 +7,16 @@
 - v1.7が現在の安定版です。
 
 ## "v1.7"での挙動
-"work time"これは作業時間のことを指します。
-"short break time"これは小休憩のことを指します。
-"long break time"これは長休憩のことを指します。
-"sessions"これは、トータルでの、セッション数を指します。
-"Long interval spacing" これは何回に一回長休憩を取るか、を指します。通常のポモドーロでは4セッションだと思いますが、このプログラムでは、現段階で、整数128まで対応しています。。
+"Work time"これは作業時間のことを指します。
+"Short break time"これは小休憩のことを指します。
+"Long break time"これは長休憩のことを指します。
+"Sessions"これは、トータルでの、セッション数を指します。
+"Long interval spacing" これは何回に一回長休憩を取るか、を指します。通常のポモドーロでは4セッションだと思いますが、このプログラムでは、現段階で、整数128まで対応しています。
 "Reminder interval" これは、何分間に一回、動画再生と、メモ帳をポップアップ表示するか。
+
+## "v1.8"での挙動"
+"v1.8"以降では、"Additional Break Time"が加わりました。
+"Additional break time"とは、"Work Time"とは、セッション中に強制的に入ることができる休憩です。時間指定できます。
 
 ## 動作環境 
 - このプログラムはLinuxでの運用を想定しています。
@@ -48,6 +52,11 @@ Although it behaves as in versions prior to v1.3, please refer to the image.
 "sessions" refers to the total number of sessions.
 "Long interval spacing" refers to how often a long break is taken. In a standard Pomodoro session, this would typically be every 4 sessions, but at present, this program supports values up to 128.
 "Reminder interval" refers to how many minutes elapse before a video plays and a notepad pops up.
+"Additional break time" is a break that can be forcibly initiated during a session. You can specify the duration.
+
+## Behavior in v1.8
+"Additional Break Time" has been added in v1.8 and later versions.
+"Additional Break Time" refers to a break that can be forcibly taken during a session, distinct from standard "Work Time." You can specify the duration.
 
 ## System Requirements 
 This program is designed to run on Linux.
