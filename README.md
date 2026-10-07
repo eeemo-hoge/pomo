@@ -1,7 +1,7 @@
 
 ## 概要 
 シンプルなアスキーアートポモドーロタイマーです。
-cとc++言語によって書かれました。
+c,python,c++言語によって書かれました。
 - v2.1が現在の安定版です。
 (*src/以下にあるものは過去の作品ですが、一応残してあります。)
 
@@ -41,7 +41,7 @@ cとc++言語によって書かれました。
 
 ## Overview
 A simple ASCII art Pomodoro timer.
-Written in C and C++.
+Written in C, python and C++.
 - v2.1 is the current stable version.
 (*Files under `src/` are from previous versions but have been retained for reference.)
 
