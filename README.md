@@ -1,10 +1,10 @@
 
 ## 概要 
-このプログラムはシンプルなasciiポモドーロです。
-このプログラムは、latest_versionまでは、日本語話者によってc言語で書かれました。
-このプログラムは、aura_versionは、c++ 言語によって日本語話者によって書かれました。
-アスキーアートが好きなので練習がてら、copilotとvscodeでポモドーロタイマーを作ってみました！
-- v1.9が現在の安定版です。
+シンプルなアスキーアートポモドーロタイマーです。
+cとc++言語によって書かれました。
+- v2.1が現在の安定版です。
+(*src/以下にあるものは過去の作品ですが、一応残してあります。)
+
 
 ## "v1.9"での挙動
 "Work Time"これは作業時間のことを指します。
@@ -26,11 +26,11 @@
 - Linux mint 22.3 mate. 
 
 ## コンパイルと実行
-- 対象のバージョンのフォルダに移動し、./mainを実行して下さい。
-- 不安な人は、"g++ main.cpp -o main"を実行したあとに、上記のコマンドを実行して下さい。
-- 
-## 展望
+- 対象のバージョンのフォルダに移動し、"g++ main.cpp -o main"を実行したあとに、"./main"を実行。
+
+## 改善点
 - もっと速くて軽いプログラムを作ります。
+- additionalとwork timeしか行き来できないの修正します。
 
 ## 注意点
 できるだけファイル、フォルダ構造は変更しないでください。
@@ -39,41 +39,39 @@
 ## License
 詳細は、LISENCEを参照してください。
 
-## Overview 
-This programme is a simple Ascii art Pomodoro timer.
-Up to version ‘latest_version’, this programme was written in C by a Japanese speaker.
-From version ‘aura_version’ onwards, this programme was written in C++ by a Japanese speaker.
-As I’m a fan of ASCII art, I decided to try my hand at creating a Pomodoro timer using Copilot and VS Code!
-Although it behaves as in versions prior to v1.3, please refer to the image.
+## Overview
+A simple ASCII art Pomodoro timer.
+Written in C and C++.
+- v2.1 is the current stable version.
+(*Files under `src/` are from previous versions but have been retained for reference.)
 
-## Behaviour in "v1.7"
-"work time" refers to the working time.
-"short break time" refers to a short break.
-"long break time" refers to a long break.
-"sessions" refers to the total number of sessions.
-"Long interval spacing" refers to how often a long break is taken. In a standard Pomodoro session, this would typically be every 4 sessions, but at present, this program supports values up to 128.
-"Reminder interval" refers to how many minutes elapse before a video plays and a notepad pops up.
-"Additional break time" is a break that can be forcibly initiated during a session. You can specify the duration.
 
-## Behavior in v1.8
-"Additional Break Time" has been added in v1.8 and later versions.
-"Additional Break Time" refers to a break that can be forcibly taken during a session, distinct from standard "Work Time." You can specify the duration.
+## Behavior in "v1.9"
+"Work Time": Refers to the duration of the work period.
+"Short Break Time": Refers to the duration of a short break.
+"Long Break Time": Refers to the duration of a long break.
+"Sessions": Refers to the total number of sessions.
+"Long Interval spacing": Specifies how often a long break is taken. While a standard Pomodoro cycle typically involves 4 sessions, this program currently supports values ​​up to 128.
+"Reminder interval": Specifies the frequency (in minutes) at which a video plays and a Notepad window pops up.
 
-## System Requirements 
-This program is designed to run on Linux.
+## Behavior in "v1.8"
+Up to version v1.7, the program operates exactly like a standard Pomodoro timer. "
+"Additional Break Time" has been added starting with version 1.8.
+"Additional Break Time" refers to a break that can be forcibly initiated during a session, distinct from "Work Time." You can specify the duration.
+
+## System Requirements
+- This program is designed to run on Linux.
 
 ## Development Environment
-Linux Mint 22.3 MATE. 
+- Linux Mint 22.3 MATE.
 
 ## Compilation and Execution
-- Navigate to the folder for the relevant version and run `./main`.
-- If you are unsure, run `g++ main.cpp -o main` first, followed by the command above.
-## Future Plans
-I intend to create a faster and lighter programme.
+- Navigate to the folder for the relevant version, run "g++ main.cpp -o main", and then run "./main".
+
+## Planned Improvements
+- Create a faster and more lightweight program.
+- Fix the issue where it is only possible to toggle between "Additional Break Time" and "Work Time."
 
 ## Important Notes
-Please avoid changing the file and folder structure as much as possible.
-If you do make changes, please do so at your own risk and configure the paths, source code and filenames yourself.
-
-## LISENCE
-Please refer to the file for details.
+- Please avoid changing the file and folder structure as much as possible.
+- If you do make changes, you do so at your own risk and are responsible for updating paths, source code, and filenames accordingly.
