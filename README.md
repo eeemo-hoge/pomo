@@ -1,77 +1,131 @@
+<div align="center">
 
-## 概要 
-シンプルなアスキーアートポモドーロタイマーです。
-c,python,c++言語によって書かれました。
-- v2.1が現在の安定版です。
-(*src/以下にあるものは過去の作品ですが、一応残してあります。)
+☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️
 
+# 🍓 ぽも · pomo 🍓
 
-## "v1.9"での挙動
-"Work Time"これは作業時間のことを指します。
-"Short Break Time"これは小休憩のことを指します。
-"Long Break Time"これは長休憩のことを指します。
-"Sessions"これは、トータルでの、セッション数を指します。
-"Long Interval spacing" これは何回に一回長休憩を取るか、を指します。通常のポモドーロでは4セッションだと思いますが、このプログラムでは、現段階で、整数128まで対応しています。
-"Reminder interval" これは、何分間に一回、動画再生と、メモ帳をポップアップ表示するかを指します、
+### ✨ ふわふわ ゆめかわ ASCII ポモドーロタイマー ✨
 
-## "v1.8"での挙動"
-"v1.7までは、普通のポモドーロと同じ挙動をします。"
-"v1.8"以降では、"Additional Break Time"が加わりました。
-"Additional break time"とは、"Work Time"とは、セッション中に強制的に入ることができる休憩です。時間指定できます。
+🦄 Linux 専用 ♡ 🍭 v2.1 が安定版 ♡ 🌈 C / Python / C++
 
-## 動作環境 
-- このプログラムはLinuxでの運用を想定しています。
+☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️ ･ﾟ✧ ☁️
 
-## 開発環境
-- Linux mint 22.3 mate. 
+</div>
 
-## コンパイルと実行
-- 対象のバージョンのフォルダに移動し、"g++ main.cpp -o main"を実行したあとに、"./main"を実行。
+---
 
-## 改善点
-- もっと速くて軽いプログラムを作ります。
-- additionalとwork timeしか行き来できないの修正します。
+## 🍰 うごいてるところ / Demo
 
-## 注意点
-できるだけファイル、フォルダ構造は変更しないでください。
-変更する場合は自己責任で、パスやソースコード、ファイル名の設定を各自行ってください。
+<div align="center">
 
-## License
-詳細は、LISENCEを参照してください。
+![pomo running in the terminal](demo.png)
 
-## Overview
-A simple ASCII art Pomodoro timer.
-Written in C, python and C++.
-- v2.1 is the current stable version.
-(*Files under `src/` are from previous versions but have been retained for reference.)
+🌙 ターミナルでふわっと動いているようすです♡
+*pomo running in a Linux terminal*
 
+</div>
 
-## Behavior in "v1.9"
-"Work Time": Refers to the duration of the work period.
-"Short Break Time": Refers to the duration of a short break.
-"Long Break Time": Refers to the duration of a long break.
-"Sessions": Refers to the total number of sessions.
-"Long Interval spacing": Specifies how often a long break is taken. While a standard Pomodoro cycle typically involves 4 sessions, this program currently supports values ​​up to 128.
-"Reminder interval": Specifies the frequency (in minutes) at which a video plays and a Notepad window pops up.
+> 💡 画面を更新したいときは、`./main` を動かしたターミナルのスクリーンショットで `demo.png` を差し替えてね。
 
-## Behavior in "v1.8"
-Up to version v1.7, the program operates exactly like a standard Pomodoro timer. "
-"Additional Break Time" has been added starting with version 1.8.
-"Additional Break Time" refers to a break that can be forcibly initiated during a session, distinct from "Work Time." You can specify the duration.
+---
 
-## System Requirements
-- This program is designed to run on Linux.
+# 🇯🇵 にほんご
 
-## Development Environment
-- Linux Mint 22.3 MATE.
+## 🌷 pomo ってなあに？
+シンプルな **アスキーアートのポモドーロタイマー** だよ 🎀
+C・Python・C++ で書かれています。
 
-## Compilation and Execution
-- Navigate to the folder for the relevant version, run "g++ main.cpp -o main", and then run "./main".
+- 🌟 **v2.1** が今の安定版です
+- 🕰️ `src/` 以下は過去の作品だけど、思い出として残してあります
 
-## Planned Improvements
-- Create a faster and more lightweight program.
-- Fix the issue where it is only possible to toggle between "Additional Break Time" and "Work Time."
+## 🫧 v1.9 のおはなし
+| ことば | いみ |
+| --- | --- |
+| 🍎 Work Time | 作業する時間 |
+| 🍬 Short Break Time | ちいさなお休み |
+| 🛁 Long Break Time | ながいお休み |
+| 🔢 Sessions | トータルのセッション数 |
+| 🎠 Long Interval spacing | 何回に一回、長休憩をとるか（ふつうは 4 だけど、今は 128 まで OK！） |
+| 🔔 Reminder interval | 何分に一回、動画再生とメモ帳ポップアップをするか |
 
-## Important Notes
-- Please avoid changing the file and folder structure as much as possible.
-- If you do make changes, you do so at your own risk and are responsible for updating paths, source code, and filenames accordingly.
+## 🍬 v1.8 のおはなし
+v1.7 までは、ふつうのポモドーロと同じ動きだよ。
+v1.8 からは **Additional Break Time** が仲間入り ✨
+セッションの途中で、Work Time とは別に強制的に入れるお休みで、時間も自由に決められます。
+
+## 🎀 うごく環境
+- 🐧 Linux で使うことを想定しています
+- 🧸 開発環境: Linux Mint 22.3 MATE
+
+## 🛠️ コンパイルと実行
+遊びたいバージョンのフォルダに移動して…
+
+```bash
+g++ main.cpp -o main
+./main
+```
+
+## 🌸 これからやりたいこと
+- 💨 もっと速くて軽いプログラムにする
+- 🔄 Additional と Work Time だけを行き来してしまうところを直す
+
+## ⚠️ おねがい
+- 📁 ファイルやフォルダの構造は、できるだけ変えないでね
+- 変えるときは自己責任で、パス・ソースコード・ファイル名を自分で直してください
+
+## 📜 License
+くわしくは `LISENCE` を見てね。
+
+---
+
+# 🇬🇧 English
+
+## 🌷 What is pomo?
+A simple, dreamy **ASCII art Pomodoro timer** 🎀
+Written in C, Python and C++.
+
+- 🌟 **v2.1** is the current stable version
+- 🕰️ Files under `src/` are from earlier versions, kept as keepsakes
+
+## 🫧 Behavior in v1.9
+| Term | Meaning |
+| --- | --- |
+| 🍎 Work Time | Length of a work period |
+| 🍬 Short Break Time | Length of a short break |
+| 🛁 Long Break Time | Length of a long break |
+| 🔢 Sessions | Total number of sessions |
+| 🎠 Long Interval spacing | How often a long break is taken (standard Pomodoro uses 4; up to 128 is supported here) |
+| 🔔 Reminder interval | How often (in minutes) a video plays and a Notepad window pops up |
+
+## 🍬 Behavior in v1.8
+Up to v1.7 the timer behaves like a standard Pomodoro.
+**Additional Break Time** joined in v1.8 ✨ — a break you can forcibly start during a session, separate from Work Time, with a duration you choose.
+
+## 🎀 System Requirements
+- 🐧 Designed to run on Linux
+- 🧸 Developed on Linux Mint 22.3 MATE
+
+## 🛠️ Compile & Run
+Go to the folder of the version you want, then:
+
+```bash
+g++ main.cpp -o main
+./main
+```
+
+## 🌸 Planned Improvements
+- 💨 Make it faster and more lightweight
+- 🔄 Fix the issue where you can only toggle between Additional Break Time and Work Time
+
+## ⚠️ Important Notes
+- 📁 Please avoid changing the file and folder structure
+- If you do, it's at your own risk, and you'll need to update paths, source code and filenames yourself
+
+## 📜 License
+See `LISENCE` for details.
+
+<div align="center">
+
+☁️ ･ﾟ✧ made with ♡ ✧･ﾟ ☁️
+
+</div>
