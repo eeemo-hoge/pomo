@@ -95,3 +95,4 @@ If you move them, the paths, the source, and the filenames are yours to set righ
 See LICENSE.
 
 [description](LICENSE)
+license is "[LICENSE](LICENSE)"
