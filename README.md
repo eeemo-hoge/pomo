@@ -41,7 +41,6 @@ g++ main.cpp -o main
 動かすなら、パスもソースもファイル名も、あなたの手で合わせてください。その先は、自己責任で。
 
 ## License
-LICENSE を見てください。
 
 ---
 
@@ -92,7 +91,5 @@ Please leave the files and folders as they are, as much as you can.
 If you move them, the paths, the source, and the filenames are yours to set right. What happens after that is your own.
 
 ## License
-See LICENSE.
 
-[description](LICENSE)
 license is "[LICENSE](LICENSE)"
