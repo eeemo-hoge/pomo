@@ -36,12 +36,15 @@ g++ main.cpp -o main
 ./main
 ```
 
+## どのように動作するか
+[Description](https://github.com/eeemo-hoge/pomo/imgae)
+
 ## おねがい
 ファイルやフォルダの並びは、できるだけそのままにしておいてください。
 動かすなら、パスもソースもファイル名も、あなたの手で合わせてください。その先は、自己責任で。
 
 ## License
-
+License is [LICENSE](https://github.com/eeemo-hoge/pomo/LICENSE)
 ---
 
 # Pomodoro
