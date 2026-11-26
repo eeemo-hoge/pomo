@@ -17,7 +17,7 @@ g++ main.cpp
 
 ## Features 
 - ASCII art pomo
-- force break, force work.
+- Back and force to force break, force work system.
 - notification system.
 
 ## Vision 
