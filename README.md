@@ -26,6 +26,7 @@ So far, this project I consider as a complete.
 
 ## Images 
 
+![How it works](image.png)
 
 ## License 
 License is MIT.
