@@ -1,8 +1,7 @@
 # pomo
-
-## overview
 A simple ascii style pomodoro work on cui written by C++ and etc.
 
+## overview
 This Pomodoro app lets you check your progress using Sharp and [], and it can start playing a video at a scheduled time.
 I created it because I was inspired by ASCII culture.
 
