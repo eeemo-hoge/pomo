@@ -7,6 +7,7 @@ I created it because I was inspired by ASCII culture.
 
 ## Usage
 - move to directory and run.
+
 git clone https://github.com/eeemo-hoge/pomo
 
 cd vx.x
